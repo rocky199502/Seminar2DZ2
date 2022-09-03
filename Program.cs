@@ -8,7 +8,7 @@ namespace Semin2DZ2
         Console.WriteLine("Введите число:");
         int chislo = int.Parse(Console.ReadLine());
         string NewChislo = Convert.ToString(chislo);
-        if (chislo / 10 > 10)
+        if (chislo > 99)
           {
              Console.WriteLine($"Третья цифра числа {chislo} это: {NewChislo[2]}");
           }
